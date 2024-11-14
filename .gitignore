@@ -1,0 +1,6 @@
+*.user
+*.pro.user
+*.qmlc
+*.jsc
+.DS_Store
+build/
