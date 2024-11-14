@@ -2,4 +2,15 @@
     <qresource prefix="/fonts">
         <file>fonts/open-sans-semibold.ttf</file>
     </qresource>
+
+    <qresource prefix="/buttons">
+        <file>buttons/bkt.png</file>
+        <file>buttons/plus_minus.png</file>
+        <file>buttons/percent.png</file>
+        <file>buttons/equal.png</file>
+        <file>buttons/division.png</file>
+        <file>buttons/multiplication.png</file>
+        <file>buttons/minus.png</file>
+        <file>buttons/plus.png</file>
+    </qresource>
 </RCC>

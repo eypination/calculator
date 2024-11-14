@@ -172,15 +172,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.2608
-                y: parent.height * 0.0441
-                Text {
-                    text: "()"
+
+                Image {
+                    source: "qrc:/buttons/buttons/bkt.png"
+                    width: 24
+                    height: 24
                     anchors.centerIn: parent
-                    color: "#FFFFFF"
-                    font.family: "Open Sans Semibold"
-                    font.pixelSize: appProperties.fontSizeButton
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -197,49 +196,12 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.2308
-                y: parent.height * 0.0441
 
-                Item {
-                    width: button2.width
-                    height: button2.height
-                    Rectangle {
-                        radius: 2
-                        width: button2.width * 0.35
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button2.height * 0.33
-                        rotation: 115
-                    }
-                    //плюс
-                    Rectangle {
-                        radius: 2
-                        width: 9.5
-                        height: 2
-                        color: "#FFFFFF"
-                        x: button2.width * 0.27
-                        y: button2.height * 0.38
-                    }
-                    Rectangle {
-                        radius: 2
-                        width: 2
-                        height: 9.5
-                        color: "#FFFFFF"
-                        x: button2.width * 0.348
-                        y: button2.height * 0.3
-                    }
-
-
-                    //минус
-                    Rectangle {
-                        radius: 2
-                        width: 9.5
-                        height: 2
-                        color: "#FFFFFF"
-                        x: button2.width * 0.55
-                        y: button2.height * 0.557
-                    }
+                Image {
+                    source: "qrc:/buttons/buttons/plus_minus.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
 
                 MouseArea {
@@ -264,45 +226,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.2008
-                y: parent.height * 0.0441
-                Item {
-                    width: button3.width
-                    height: button3.height
-                    Rectangle {
-                        radius: 2
-                        width: button3.width * 0.35
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button3.height * 0.33
-                        rotation: 120
-                    }
 
-                    Rectangle {
-                        width: 6.5
-                        height: 8.5
-                        color: "transparent"
-                        border.color: "#FFFFFF"
-                        border.width: 1.8
-                        radius: 3
-                        anchors.left: parent.left
-                        anchors.top: parent.top
-                        anchors.margins: 16
-                    }
-
-                    Rectangle {
-                        width: 6.5
-                        height: 8.5
-                        color: "transparent"
-                        border.color: "#FFFFFF"
-                        border.width: 1.8
-                        radius: 3
-                        anchors.right: parent.right
-                        anchors.bottom: parent.bottom
-                        anchors.margins: 16
-                    }
+                Image {
+                    source: "qrc:/buttons/buttons/percent.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -325,36 +256,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.1408
-                y: parent.height * 0.0522
-                Item {
-                    width: button4.width
-                    height: button4.height
-                    Rectangle {
-                        radius: 2
-                        width: button4.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button4.height * 0.5
-                    }
-                    Rectangle {
-                        width: 3.5
-                        height: 3.5
-                        radius: 3
-                        color: "#FFFFFF"
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        y: button4.height * 0.59
-                    }
-                    Rectangle {
-                        width: 3.5
-                        height: 3.5
-                        radius: 3
-                        color: "#FFFFFF"
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        y: button4.height * 0.34
-                    }
+
+                Image {
+                    source: "qrc:/buttons/buttons/division.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -482,31 +391,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.1108
-                y: parent.height * 0.0441
-                Item {
-                    width: button8.width
-                    height: button8.height
 
-                    Rectangle {
-                        radius: 2
-                        width: button8.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button8.height * 0.5
-                        rotation: 45
-                    }
-                    Rectangle {
-                        radius: 2
-                        width: button8.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button8.height * 0.5
-                        rotation: 135
-                    }
+                Image {
+                    source: "qrc:/buttons/buttons/multiplication.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -630,20 +522,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.0808
-                y: parent.height * 0.0441
-                Item {
-                    width: button12.width
-                    height: button12.height
-                    Rectangle {
-                        radius: 2
-                        width: button12.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button12.height * 0.5
-                    }
+
+                Image {
+                    source: "qrc:/buttons/buttons/minus.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -788,30 +674,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.0508
-                y: parent.height * 0.0441
 
-                Item {
-                    width: button16.width
-                    height: button16.height
-
-                    Rectangle {
-                        radius: 2
-                        width: button16.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        y: button16.height * 0.1833
-                    }
-                    Rectangle {
-                        radius: 2
-                        width: 2
-                        height: button16.height * 0.3333
-                        color: "#FFFFFF"
-                        anchors.centerIn: parent
-                        x: button16.width * 0.1833
-                    }
+                Image {
+                    source: "qrc:/buttons/buttons/plus.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onPressed: {
@@ -930,29 +800,14 @@ ApplicationWindow {
                 radius: 25
                 implicitWidth: 50
                 implicitHeight: 50
-                x: parent.width * 0.1708
-                y: parent.height * 0.0441
-                Item {
-                    width: button21.width
-                    height: button21.height
 
-                    Rectangle {
-                        radius: 2
-                        width: button21.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        y: button21.height * 0.4267
-                    }
-                    Rectangle {
-                        radius: 2
-                        width: button21.width * 0.3333
-                        height: 2
-                        color: "#FFFFFF"
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        y: button21.height * 0.5525
-                    }
+                Image {
+                    source: "qrc:/buttons/buttons/equal.png"
+                    width: 24
+                    height: 24
+                    anchors.centerIn: parent
                 }
+
                 MouseArea {
                     id: longPressArea
                     anchors.fill: parent
